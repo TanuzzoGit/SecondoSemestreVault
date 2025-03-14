@@ -266,3 +266,21 @@ $$
 $$
 
 Presa qualunque regola ammissibile non è detto sia derivabile
+
+## Semantica di un sistema formale 
+Dire che un ragionamento per fbf è valido o non valido 
+il concetto di validità coincide con quello di tautologia 
+
+Che caratteristiche deve avere la semantica di un SF?
+Le due caratteristiche principali sono 
+- Correttezza
+> Quando i teoremi che ottengo nell'SF sono tutti Validi 
+> Se ho un ragionamento che usa dell ipotesi e conclude con una certa fbf il sistema formale è corretto rispetto alla sua semantica
+  Se le ipotesi sono validi che portano a un teorema valido è corretto
+- Completezza
+> Tutto ciò che è valido si può ottenere come conclusione di un ragionamento 
+> Non c'è una relazione tra un sistema completo e corretto
+
+Non è completo se c'è una fbf valida ma non dimostrabile
+
+ved es 115 
